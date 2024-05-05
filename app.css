@@ -24,7 +24,7 @@ body {
 
 .box {
     background-color: hsla(186, 76%, 82%, 0.625);
-    padding: 10% 20%;
+    padding: 5% 10%;
     border: .1rem solid black;
     color: #020887;
     border-radius: 25px;
