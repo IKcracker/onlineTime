@@ -6,9 +6,9 @@
 body{
     
     height: 100vh;
-    /* background-image: url('/1\ \(1\).jpg'); */
     background-position: center;
     background-size: cover;
+
    
 }
 .main{
@@ -27,12 +27,31 @@ body{
     color: #020887;
     border-radius: 25px;  
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
 }
 .box>h1{
     text-align: center;
     font-size:2rem;
     
+}
+#time{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.date{
+    
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.day{
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    border-bottom: .1rem solid #020887;
 }
